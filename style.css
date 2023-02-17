@@ -1,0 +1,157 @@
+@import url("components/banner.css");
+@import url("components/avatar.css");
+@import url("components/container.css");
+@import url("components/button.css");
+
+
+body{
+	font-family: 'Poppins' sans-serif;
+	text-align: center;
+	background-color: #11998e;
+}
+
+h1{
+	margin-bottom: 15px;
+}
+
+h2{
+	color: #155257;
+	padding-bottom: 0px;
+	margin: 20px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+}
+
+p{
+	text-align: center;
+	margin-top: 5px;
+	margin-bottom: 25px;
+	font-size: 18px;
+}
+
+.banner{
+	width: 100%;
+	height: 500px;
+	background-image: url("Images/banner.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	display: flex;
+	justify-content: space-around;
+}
+
+.container{
+	width: 100%;
+	margin: 20px;
+	display: flex;
+	flex-direction: column;
+	padding: 24px;
+	color: whitesmoke;
+	font-size: 20px;
+}
+
+.cards{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+.card{
+	width: 30%;
+	display: flex;
+	background: whitesmoke;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 24px;
+	padding: 24px;
+	margin: 30px 10px 10px 10px;
+	box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+	text-align: justify;
+}
+
+.card-short{
+	width: 30%;
+	display: flex;
+	background: whitesmoke;
+	flex-direction: column;
+	align-items: center;
+	border-radius: 24px;
+	padding: 24px;
+	margin: 30px 10px 10px 10px;
+	box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+	text-align: justify;
+}
+
+
+
+.inside{
+	background: linear-gradient(to right, #38ef7d 0%, #11998e 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-colot: transparent;
+}
+
+img{
+	width: 190px;
+	height: 200px;
+}
+
+.icons{
+	padding-top: 50px;
+	display: flex;
+	text-decoration: none;
+	align-items: center;
+	justify-content: center;
+	column-gap: 20px;
+	font-size: 25px;
+	padding: 20px;
+	color: #155257;
+}
+
+.fa-facebook:hover {
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  	color: whitesmoke;
+}
+
+.fa-instagram:hover {
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  	color: whitesmoke;
+}
+
+.fa-linkedin:hover {
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  	color: whitesmoke;
+}
+
+
+a{
+	color: #155257;
+	text-decoration: none;
+	margin-bottom: 15px;
+}
+
+#button{
+	margin: 0 auto;
+	width: 30%;
+	padding: 4px 8px 4px 8px;
+	text-align: center;
+	margin: 20 0 20 0;
+	text-decoration: none;
+	color: #155257;
+	border: 2px solid #155257;
+	background-color: whitesmoke;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+#button:hover {
+	color: whitesmoke;
+	background-color: #155257;
+}
+
+.footer {
+   background-color: transparent;
+   padding: 40px;
+  text-align: center;
+  width: 100%;
+  border: 2px solid #155257;
+}
